@@ -1,3 +1,4 @@
+from weapon import Weapon
 from robot import Robot
 
 class Fleet:
@@ -6,9 +7,9 @@ class Fleet:
         self.creat_fleet()
 
     def create_fleet(self):
-        robot1 = Robot('Quickest')
-        robot2 = Robot('Slowest')
-        robot3 = Robot('Balanced')
+        robot1 = Robot('Quickest', 30, Weapon('machine gun', 5))
+        robot2 = Robot('Slowest', 150, Weapon('bazooka', 25))
+        robot3 = Robot('Balanced', 90, Weapon ('.50 caliber', 15))
 
         self.robots_list.append(robot1)
         self.robots_list.append(robot2)

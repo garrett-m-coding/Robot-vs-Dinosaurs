@@ -1,4 +1,3 @@
-from typing_extensions import ParamSpecKwargs
 from fleet import Fleet
 from herd import Herd
 
@@ -8,11 +7,13 @@ class Battlefield:
         self.fleet = Fleet()
         self.herd = Herd()
 
-    def run_game(self):
-        pass
-    
     def display_welcome(self):
         print('Welcome to Dinos vs Robots Battlefield')
+        pass
+
+    # start the Battlefield game
+    def run_game(self):
+        print('Do you want to play as Dinos or Robots?')
         pass
 
     def battle(self):
