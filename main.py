@@ -1,4 +1,5 @@
 from battlefield import Battlefield
 
-blue_battlefield = Battlefield('blue')
-blue_battlefield.greeting()
+# import/substantiate/run
+green_battlefield = Battlefield('Dinos vs Robots Battlefield')
+green_battlefield.run_game()
